@@ -1,0 +1,46 @@
+
+importFrom("grid",
+           "convertX",
+           "convertY",
+           "gList",
+           "gpar",
+           "grid.draw",
+           "grid.layout",
+           "gTree",
+           "is.unit",
+           "makeContent",
+           "setChildren",
+           "unit",
+           "viewport",
+           "vpStack")
+
+importFrom("gridBezier",
+           "BezierGrob")
+
+export("cp",
+       "curl",
+       "cycle",
+       "dir",
+       "knot",
+       "tension",
+       "%+%",
+       "%-%",
+
+       "metapost",
+       "mpost",
+       "mptrace",
+       "mpbbox",
+       "mpvp",
+
+       "grid.metapost",
+       "metapostGrob")
+
+S3method("length", "knot")
+S3method("length", "mppath")
+S3method("Ops", "mpobj")
+S3method("makeContent", "metapostgrob")
+S3method("metapostGrob", "mpcontrols")
+S3method("metapostGrob", "mpcontrolList")
+S3method("metapostGrob", "mppath")
+S3method("print", "knot")
+S3method("print", "mppath")
